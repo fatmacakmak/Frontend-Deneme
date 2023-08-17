@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
+    <title>ATM</title>
+</head>
+<body>
+<div class="atmLogin">
+    <button id="girisKart" onclick="basla()">Kartı Takınız</button>
+
+    <div id="buttons">
+        <button class="mybutton">1-Bakiye Yükleme</button>
+        <button class="mybutton">2-Para Çekme</button>
+        <button class="mybutton">3-Para Yatırma</button>
+        <button class="mybutton">4-Çıkış</button>
+        <button id="iptal" onclick="iptal()" >İptal</button>
+    </div>
+    <div id="girisForm">
+        <input type="text" id="sifre" placeholder="Şifre Giriniz...">
+        <button id="giris" onclick="login()">Giriş</button>
+        <button id="iptal" onclick="iptal()" >İptal</button>
+        <b id="mesaj"></b>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.atmLogin {
+    height:300px;
+    width:400px;
+    margin:500px;
+    margin-top:150px !important;
+    margin-left:400px !important;
+    border:2px;
+    border: 2px solid rebeccapurple;
+    border-radius: 25px;
+    background-color:grey;
+}
+
+#buttons, #girisForm{
+    display: none;
+}
+
+.mybutton{
+    height:30px;
+    width:200px;
+    border:2px;
+    border: 2px solid rebeccapurple;
+    border-radius: 25px;
+    margin-top:20px;
+    margin-left:80px;
+    background-color:rebeccapurple;
+}
+
+#girisKart, #girisForm{
+    margin-top:38%;
+    margin-left:38%;
+}
